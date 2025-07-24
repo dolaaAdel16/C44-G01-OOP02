@@ -86,6 +86,22 @@ namespace DemoOOP02
             #endregion
 
 
+            #region V08
+            ////Console.WriteLine("V08");
+
+            ////TypeA Ref = new TypeA(); 
+
+            ////Ref = new TypeB();
+
+            ////TypeB Ref = new TypeB();
+            ////Ref = new TypeA(); 
+
+            ////TypeA Ref = new TypeA();
+
+            ////TypeB typeB = new TypeB(); 
+            #endregion
+
+
 
 
 
