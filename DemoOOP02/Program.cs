@@ -1,10 +1,29 @@
-﻿using DemoOOP02.Inheirtance;
+﻿using DemoOOP02.Binding;
+using DemoOOP02.Inheirtance;
 using DemoOOP02.Overriding;
 
 namespace DemoOOP02
 {
     internal class Program
     {
+
+        //static void EmployeeProcces(FullTimeEmployee employee)
+        //{
+        //    employee.fun01();
+        //    employee.fun02();   
+        //}
+
+        //static void EmployeeProcces(PartTimeEmployee employee)
+        //{
+        //    employee.fun01();
+        //    employee.fun02();
+        //}
+
+        //static void EmployeeProcces(Employee employee)
+        //{
+        //    employee.fun01();
+        //    employee.fun02();
+        //}
 
         #region V06
         //static int Sum(int x , int y )
@@ -102,7 +121,29 @@ namespace DemoOOP02
             #endregion
 
 
+            #region V09
+            //FullTimeEmployee fulltime = new FullTimeEmployee()
+            //{
+            //    Id = 1 , 
+            //    Name = "Ahmed" ,
+            //    Email = "Ahmed@g.c" , 
+            //    Address = "Cairo" , 
+            //    Salary = 12000
+            //};
 
+            //PartTimeEmployee parttime = new PartTimeEmployee()
+            //{
+            //    Id = 1,
+            //    Name = "Ahmed",
+            //    Email = "Ahmed@g.c",
+            //    Address = "Cairo",
+            //    HourRate = 120 , 
+            //    NumberOfHours = 200
+            //};
+
+
+            //EmployeeProcces(parttime); 
+            #endregion
 
 
 
