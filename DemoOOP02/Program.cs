@@ -1,6 +1,8 @@
 ﻿using DemoOOP02.Binding;
 using DemoOOP02.Inheirtance;
 using DemoOOP02.Overriding;
+using System.Security.AccessControl;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DemoOOP02
 {
@@ -165,8 +167,87 @@ namespace DemoOOP02
             //typeA.fun02();   
             #endregion
 
+            // Assignment : 
+            // access modefiries : 
+            // 1 : protected : Accessible within the same class and by derived classes.
+            // Not accessible from outside if not inherited.
+
+            //    class Animal
+            //    {
+            //    protected void Speak()
+            //    {
+            //        Console.WriteLine("Animal sound");
+            //    }
+            //    }
+
+            //class Dog : Animal
+            //{
+            //    public void Bark()
+            //    {
+            //        Speak(); // Allowed: Dog inherits Animal
+            //    }
+            //}
 
 
-        }
+            //2 : private protected : Accessible only within the same class or a derived class in the same assembly.
+            //Cannot be accessed from derived classes in another assembly.
+
+            //    class Animal
+            //{
+            //    private protected void Move()
+            //    {
+            //        Console.WriteLine("Animal is moving");
+            //    }
+            //}
+
+            //class Dog : Animal
+            //{
+            //    public void Walk()
+            //    {
+            //        Move(); // Allowed: Dog inherits Animal and in same assembly
+            //    }
+            //}
+
+            //3: internal protected :  Accessible from the same assembly or any derived class
+            //(even if it's in another assembly)
+
+           
+
+
+            //class Animal
+            //        {
+            //            protected internal void Eat()
+            //            {
+            //                Console.WriteLine("Animal is eating");
+            //            }
+            //        }            
+
+            //        class Dog : Animal
+            //        {
+            //            public void Chew()
+            //            {
+            //                Eat(); // Allowed: inherited
+            //            }
+            //        }
+            //
+            //        class Zoo
+            //        {
+            //            public void Feed()
+            //            {
+            //                Animal a = new Animal();
+            //                a.Eat(); // Allowed: same assembly
+            //            }
+            //        }
+            //
+            //
+            //---
+            //
+
+
+
+
+
     }
+  }
+
 }
