@@ -1,4 +1,5 @@
 ﻿using DemoOOP02.Inheirtance;
+using DemoOOP02.Overriding;
 
 namespace DemoOOP02
 {
@@ -31,6 +32,7 @@ namespace DemoOOP02
         //}
         static void Main()
         {
+            Console.WriteLine("V06");
             //Console.WriteLine("V04");
             //Console.WriteLine("Inheirtance");
             ////Parent parent = new Parent(1, 3);
@@ -48,6 +50,20 @@ namespace DemoOOP02
             //Sum(1, 2);
             //Sum(1.4 , 6.2);
             //Sum(1, 6 , 2);
+
+            //TypeB typeB = new TypeB() {A = 12 ,B = 13 };
+
+            ////typeB.A = 12;
+            ////typeB.B = 13;
+
+            //Console.WriteLine(typeB.A);
+            //Console.WriteLine(typeB.B);
+
+            //typeB.fun01();
+            //typeB.fun01();
+
+
+
 
         }
     }
