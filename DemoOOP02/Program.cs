@@ -6,6 +6,7 @@ namespace DemoOOP02
     internal class Program
     {
 
+        #region V06
         //static int Sum(int x , int y )
         //{
         //    return x + y;
@@ -29,10 +30,13 @@ namespace DemoOOP02
         //static double Sum(int x, double y)
         //{
         //    return x + y;
-        //}
+        //} 
+        #endregion
+
         static void Main()
         {
-            Console.WriteLine("V06");
+            #region V06
+            //Console.WriteLine("V06");
             //Console.WriteLine("V04");
             //Console.WriteLine("Inheirtance");
             ////Parent parent = new Parent(1, 3);
@@ -60,7 +64,28 @@ namespace DemoOOP02
             //Console.WriteLine(typeB.B);
 
             //typeB.fun01();
-            //typeB.fun01();
+            //typeB.fun01(); 
+            #endregion
+
+
+            #region V07
+            //Console.WriteLine("V07");
+
+            //TypeA Ref ;
+
+            ////Ref = new TypeA();
+            ////Ref = new TypeB();
+
+            //Ref = new TypeB();
+
+            //Ref.A = 12;
+            ////Ref.B = 10;
+
+            //Ref.fun01();
+            //Ref.fun02();     
+            #endregion
+
+
 
 
 

@@ -15,10 +15,10 @@ namespace DemoOOP02.Overriding
             Console.WriteLine("fun01 from TypeA");
         }
 
-        //public override void fun02()
-        //{
-        //    Console.WriteLine($"A : {A}");
-        //}
-        override 
+        public override void fun02()
+        {
+            Console.WriteLine($"A : {A}, B : {B}");
+        }
+
     }
 }
