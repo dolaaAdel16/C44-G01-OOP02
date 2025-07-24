@@ -145,6 +145,26 @@ namespace DemoOOP02
             //EmployeeProcces(parttime); 
             #endregion
 
+            #region V10
+            //Console.WriteLine("V10");
+
+            //TypeD typeA;
+            ////typeA = new TypeA();
+            ////typeA = new TypeB();
+            ////typeA = new TypeC();
+            //typeA = new TypeD();
+            //typeA = new TypeE();
+
+
+            //typeA.A = 10;
+            ////typeA.B = 10;
+            ////typeA.C = 10;
+            ////typeA.D = 10 
+
+            //typeA.fun01();
+            //typeA.fun02();   
+            #endregion
+
 
 
         }
